@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         max-width: 100vw;
         overflow-x: hidden;
+        font-family: 'Girassol', cursive;
     }
     
     #root {

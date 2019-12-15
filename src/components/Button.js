@@ -12,6 +12,7 @@ const StyledButton = styled.button`
     border: none;
     cursor: pointer;
     border-radius: 3px;
+    font-family: 'Girassol', cursive;
     
     :disabled {
         pointer-events:none;
