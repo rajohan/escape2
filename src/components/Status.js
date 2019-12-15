@@ -33,7 +33,7 @@ const PlayerBox = styled.div`
 
 const Turn = styled.div`
     position: absolute;
-    bottom: -83px;
+    bottom: -86px;
     left: 50%;
     transform: translate(-50%);
     background-color: ${SECONDARY_COLOR};
