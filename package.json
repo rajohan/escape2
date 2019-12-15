@@ -1,0 +1,44 @@
+{
+  "name": "the_escape",
+  "description": "A dice game, with traps where your goal is to reach the finish line first.",
+  "homepage": ".",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "styled-components": "^4.4.1"
+  },
+  "author": {
+    "name": "Raymond Johannessen",
+    "email": "rajohan1@gmail.com",
+    "url": "https://rajohan.no"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajohan/escape.git"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
