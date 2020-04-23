@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{@types/react, @types/react-dom, @types/styled-components, @types/styled-jsx, @types/styled-system__css}" />
+    <file url="PROJECT" libraries="{@types/express, @types/react, @types/react-dom, @types/react-router-dom, @types/socket.io, @types/styled-components}" />
+    <includedPredefinedLibrary name="Node.js Core" />
   </component>
 </project>

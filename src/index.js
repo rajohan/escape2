@@ -1,15 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {HashRouter} from "react-router-dom"
+import { BrowserRouter } from "react-router-dom";
+import { Socket } from "react-socket-io";
 
 import App from "./components/App";
 
 const Root = () => {
     return (
-        <HashRouter basename={"/school/escape"}>
-            <App />
-        </HashRouter>
+        <BrowserRouter>
+            <Socket uri={"http://localhost:8080"} options={{ transports: ["websocket"] }}>
+                <App />
+            </Socket>
+        </BrowserRouter>
     );
 };
 
-ReactDOM.render(<Root/>, document.getElementById("root"));
+ReactDOM.render(<Root />, document.getElementById("root"));

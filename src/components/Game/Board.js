@@ -1,8 +1,8 @@
 import React from "react";
+import PropTypes from "prop-types";
 import styled from "styled-components";
 
 import Tile from "./Tile";
-import {PRIMARY_COLOR} from "../constants/colors";
 
 const StyledBoardWrapper = styled.div`
     perspective: 800px;
@@ -12,7 +12,7 @@ const StyledBoardWrapper = styled.div`
 `;
 
 const StyledOutline = styled.div`
-    background: ${PRIMARY_COLOR};
+    background: ${(props) => props.theme.colors.primary};
     padding: 10px;
     transform: rotateX(30deg);
 `;
@@ -21,24 +21,26 @@ const StyledBoard = styled.div`
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 1px;
-    background-color: #000;
-    border: 1px solid #000;
+    background-color: ${(props) => props.theme.colors.black};
+    border: 1px solid ${(props) => props.theme.colors.black};
 `;
 
-const Board = props => {
-    const {player1Position, player2Position} = props;
+const Board = (props) => {
+    const { player1Position, player2Position } = props;
 
     const Tiles = () => {
         const tileArray = [];
 
-        for(let i = 1; i <= 30; i++) {
+        for (let i = 1; i <= 30; i++) {
             tileArray.push(
-                <Tile key={i}
-                      tileNumber={i}
-                      traps={props.traps}
-                      player1Position={player1Position}
-                      player2Position={player2Position}
-                />);
+                <Tile
+                    key={i}
+                    tileNumber={i}
+                    traps={props.traps}
+                    player1Position={player1Position}
+                    player2Position={player2Position}
+                />
+            );
         }
 
         return tileArray;
@@ -53,6 +55,12 @@ const Board = props => {
             </StyledOutline>
         </StyledBoardWrapper>
     );
+};
+
+Board.propTypes = {
+    player1Position: PropTypes.number.isRequired,
+    player2Position: PropTypes.number.isRequired,
+    traps: PropTypes.array.isRequired
 };
 
 export default Board;
