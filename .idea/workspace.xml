@@ -2,38 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0525eb94-87f7-4f38-8149-27c28a37834c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Game/Game.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Game/Tile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Game/Token.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pick/Card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Pick/Pick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Shared/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/rajohan.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Board.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Game/Board.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Game/Dice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Game.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shared/Modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Status.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Game/Status.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Token.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Winner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Game/Winner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/colors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/traps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/traps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,9 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,13 +43,13 @@
   <component name="ProjectId" id="1aC6v9MIwaCFC7ccfRVlN3zVn0a" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="disabled" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.9.0" />
@@ -125,11 +94,12 @@
       <updated>1586227456915</updated>
       <workItem from="1586227458132" duration="1706000" />
       <workItem from="1586229199775" duration="186207000" />
+      <workItem from="1587600482261" duration="2984000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1586521998573">
@@ -144,11 +114,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.-234.1920.1040/0.-1080.1920.1040/1920.-234.1920.1040@0.0.1920.1040" timestamp="1586348796483" />
-    <state x="616" y="242" key="run.anything.popup" timestamp="1586801580944">
+    <state x="616" y="242" key="run.anything.popup" timestamp="1587603196218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="-838" key="run.anything.popup/0.0.1920.1040/-1920.-234.1920.1040/0.-1080.1920.1040/1920.-234.1920.1040@0.-1080.1920.1040" timestamp="1586789741020" />
-    <state x="616" y="242" key="run.anything.popup/0.0.1920.1040/-1920.-234.1920.1040/0.-1080.1920.1040/1920.-234.1920.1040@0.0.1920.1040" timestamp="1586801580944" />
+    <state x="616" y="242" key="run.anything.popup/0.0.1920.1040/-1920.-234.1920.1040/0.-1080.1920.1040/1920.-234.1920.1040@0.0.1920.1040" timestamp="1587603196218" />
     <state x="623" y="-841" width="672" height="678" key="search.everywhere.popup" timestamp="1586500755256">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>

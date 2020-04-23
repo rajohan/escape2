@@ -25,8 +25,9 @@
         "url": "https://github.com/rajohan/escape.git"
     },
     "scripts": {
-        "start": "concurrently \"nodemon --watch ./server ./server/server.js\" \"react-scripts start\"",
-        "build": "react-scripts build",
+        "start": "node ./server/server.js",
+        "dev": "concurrently \"nodemon --watch ./server ./server/server.js\" \"react-scripts start\"",
+        "build": "react-scripsts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },

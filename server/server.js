@@ -2,10 +2,11 @@ const app = require("express")();
 const server = require("http").Server(app);
 const io = require("socket.io")(server);
 
+const PORT = process.env.PORT || 8080;
 const Users = require("./Users");
 const Rooms = require("./Rooms");
 
-server.listen(8080, () => console.log("Server running on port 8080"));
+server.listen(PORT, () => console.log("Server running on port 8080"));
 
 app.get("/", (req, res) => {
     res.sendFile("../" + __dirname + "/build/index.html");
