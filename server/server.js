@@ -1,4 +1,6 @@
-const app = require("express")();
+const path = require("path");
+const express = require("express");
+const app = express();
 const server = require("http").Server(app);
 const io = require("socket.io")(server);
 
@@ -6,11 +8,13 @@ const PORT = process.env.PORT || 8080;
 const Users = require("./Users");
 const Rooms = require("./Rooms");
 
-server.listen(PORT, () => console.log("Server running on port 8080"));
+app.use(express.static(path.join(__dirname, "../build")));
 
-app.get("/", (req, res) => {
-    res.sendFile("../" + __dirname + "/build/index.html");
+app.get("/*", (req, res) => {
+    res.sendFile(path.join(__dirname, "../build/index.html"));
 });
+
+server.listen(PORT, () => console.log("Server running on port 8080"));
 
 io.on("connection", (socket) => {
     socket.on("joinedLobby", () => {
